@@ -1,0 +1,53 @@
+
+body {
+    background-image: url("https://www.thesun.co.uk/wp-content/uploads/2023/02/neymar-jr-psg-uefa-champions-795984301.jpg");
+    background-repeat: none;
+    background-size: cover;
+    font-family: "Graduate", BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+}
+
+#main-wrapper {
+   padding: 40px 0px; 
+   max-width: 500px
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 3px gray;
+    transition: all .2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: black;
+}
+
